@@ -117,3 +117,66 @@ body{
       background-color: #4ba6c3;
       color: #fff;
     }
+
+.no-results{
+  font-size: 2em;
+  text-align: center;
+  color: #4ba6c3;
+}    
+
+.load-block0 {
+    width: 15px;
+    height: 15px;
+    margin: 2em 0;
+    display: inline-block;
+    background-color: #4ba6c3;
+    position: relative;
+    -webkit-animation-name: loadingBlock; 
+    -webkit-animation-duration: .5s;
+    animation-name: loadingBlock;
+    animation-delay: 0s;
+    animation-duration: .5s;
+}
+.load-block1 {
+    width: 15px;
+    height: 15px;
+    margin: 2em 0;
+    display: inline-block;
+    background-color: #4ba6c3;
+    position: relative;
+    -webkit-animation-name: loadingBlock; 
+    -webkit-animation-duration: .5s; 
+    animation-name: loadingBlock;
+    animation-delay: .1s;
+    animation-duration: .5s;
+}
+.load-block2 {
+    width: 15px;
+    height: 15px;
+    margin: 2em 0;
+    display: inline-block;
+    background-color: #4ba6c3;
+    position: relative;
+    -webkit-animation-name: loadingBlock; 
+    -webkit-animation-duration: .5s; 
+    animation-name: loadingBlock;
+    animation-delay: .2s;
+    animation-duration: .5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes loadingBlock {
+    0%   {bottom:0px;}
+    50%  {bottom:25px;}
+    100% {bottom:0px;}
+}
+
+/* Standard syntax */
+@keyframes loadingBlock {
+    0%   {bottom:0px;}
+    50%  {bottom:25px;}
+    100% {bottom:0px;}    
+}
+
+
+
